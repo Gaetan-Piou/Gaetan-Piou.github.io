@@ -34061,6 +34061,8 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Audio.prototype.acts.Stop,
 		cr.plugins_.Text.prototype.acts.SetSize,
 		cr.plugins_.Text.prototype.cnds.CompareText,
+		cr.plugins_.Sprite.prototype.acts.MoveToBottom,
+		cr.plugins_.Text.prototype.acts.MoveToBottom,
 		cr.behaviors.Fade.prototype.acts.StartFade,
 		cr.system_object.prototype.acts.Wait,
 		cr.behaviors.Fade.prototype.exps.FadeOutTime,
