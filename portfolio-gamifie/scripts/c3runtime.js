@@ -4919,7 +4919,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.Text.Acts.SetFontColor,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
-		C3.Plugins.Browser.Acts.GoToURL,
+		C3.Plugins.Browser.Acts.GoToURLWindow,
 		C3.Plugins.TiledBg.Acts.SetWidth,
 		C3.Behaviors.Tween.Acts.TweenOneProperty,
 		C3.Plugins.Shape3D.Cnds.OnCollision,
@@ -4942,7 +4942,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Exps.random,
 		C3.Plugins.Audio.Acts.SetPlaybackRate,
 		C3.Plugins.System.Acts.SubVar,
-		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.Shape3D.Acts.SetAngle,
 		C3.Plugins.Arr.Cnds.CompareXY,
 		C3.Plugins.Audio.Acts.Stop,
@@ -5009,11 +5008,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Camera3D.Exps.LookZ,
 		C3.Plugins.System.Cnds.PickByEvaluate,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
-		C3.Plugins.Mouse.Exps.X,
-		C3.Plugins.Mouse.Exps.Y,
-		C3.Behaviors.Pathfinding.Acts.FindPath,
+		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.Touch.Exps.X,
 		C3.Plugins.Touch.Exps.Y,
+		C3.Behaviors.Pathfinding.Acts.FindPath,
 		C3.Behaviors.Pathfinding.Acts.SetSpeed,
 		C3.Behaviors.Pathfinding.Acts.StartMoving,
 		C3.Behaviors.EightDir.Acts.SetEnabled,
@@ -5473,6 +5471,7 @@ self.C3_ExpressionFuncs = [
 		() => 65535,
 		() => 16777215,
 		() => "https://gaetan-piou.itch.io/cyberdrunk",
+		() => "NewWindow",
 		() => "Desc",
 		() => "Plus d'informations",
 		() => "Menu_Desc",
@@ -5526,10 +5525,6 @@ self.C3_ExpressionFuncs = [
 			return () => (1 / (v0.GetValue() / 3));
 		},
 		() => 500,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0(20, 200);
-		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(360);
@@ -5723,7 +5718,8 @@ self.C3_ExpressionFuncs = [
 		},
 		() => "HUD Joueur",
 		() => "Son",
-		() => "Hover",
+		() => "OfHover",
+		() => "OnHover",
 		() => "On",
 		() => "Of",
 		() => -1000,
