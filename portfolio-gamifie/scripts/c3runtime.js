@@ -5768,7 +5768,7 @@ self.C3_ExpressionFuncs = [
 		() => "https://gaetan-piou.github.io/CV.pdf",
 		() => "Resume",
 		() => "Gaetan PIOU",
-		() => "Bonjour, je m'appelle Gaëtan Piou.\nJe suis actuellement etudiant en 4eme annee a LUDUS Academie, ou j'etudie la programmation et le game design.\n\nMes principales competences se tournent vers le Rational Game Design et le Narrative Design, et je cree tres regulierement des jeux sur le moteur Construct 3, qui n'a que tres peu de secrets pour moi.\nNeanmoins, j'aime egalement m'essayer a d'autres aspects de la creation de jeu, comme la musique, le sound design ou encore le pixel-art, afin d'etre le plus polyvalant possible"
+		() => "Bonjour, je m'appelle Gaetan Piou.\nJe viens d'obtenir mon Mastere europeen chef de projet informatique & multimedia à LUDUS Academie Strasbourg.\n\nMes principales competences se tournent vers le game design, et je realise regulierement des jeux sur le moteur Construct 3.\nToutefois, j'aime egalement m'essayer a d'autres aspects du developpement de jeu, comme la musique, le sound design, le pixel-art ou encore le doublage.\n\nN'hesitez pas à prendre le temps de visiter ce port-folio et ses batiments-projets ! Vous pourrez peut-etre y trouver des elements pouvant agrandir votre garde-robe !"
 ];
 
 
