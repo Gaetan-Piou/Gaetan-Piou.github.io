@@ -1,0 +1,110 @@
+{
+    "c2array": true,
+    "size": [
+        5,
+        3,
+        4
+    ],
+    "data": [
+        [
+            [
+                "Blanc",
+                "RienV",
+                "RienA",
+                "RienC"
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "",
+                "",
+                "",
+                ""
+            ]
+        ],
+        [
+            [
+                "Noir",
+                "Costard",
+                "Lunettes",
+                "Cheveux"
+            ],
+            [
+                1,
+                1,
+                0,
+                1
+            ],
+            [
+                "",
+                "",
+                "Lisez la description d'un projet",
+                ""
+            ]
+        ],
+        [
+            [
+                "Renard",
+                "Cyberdrunk",
+                "CyberLun",
+                "Alarme"
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                "Donnez tous les accessoires au renard",
+                "Entrez dans la boite de nuit de Cyberdrunk",
+                "Recuperez des bouteilles dans Cyberdrunk",
+                "Recuperez toutes les bouteilles dans Cyberdrunk"
+            ]
+        ],
+        [
+            [
+                "Manchot",
+                "Dancer",
+                "Moustache",
+                "Beret"
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                "Marquez un point au hockey",
+                "Melez-vous aux danseurs dans Cyberdrunk",
+                "Visitez la maison de Gregoire & Marcel",
+                "Faites sauter Gregoire 3 fois sur le ventre de Marcel"
+            ]
+        ],
+        [
+            [
+                "",
+                "Marcel",
+                "QueueRenard",
+                "Casque"
+            ],
+            [
+                "",
+                0,
+                0,
+                0
+            ],
+            [
+                "",
+                "Donnez a manger a Marcel",
+                "Entrez dans le bureau de Sovoladro: The Game",
+                "Visitez la patinoire de Ping'Fight"
+            ]
+        ]
+    ]
+}
